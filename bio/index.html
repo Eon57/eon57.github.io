@@ -27,7 +27,25 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 }
 .flexmain {
     max-width: 2100px;
-    max-width: none; /* Adjust for ditortable images
+    max-width: none; /* Adjust for ditortable images */
+}
+#topNav {
+	float: right;
+	padding: 20px;
+	padding-right: 30px;
+}
+#topNav a {
+	color:  #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	margin-right: 30px;
+	display: inline-block;
+	border-bottom: 3px solid transparent;
+}
+#topNav a:hover {
+	border-bottom: 3px solid #fff;
 }
 </style>
 
@@ -36,16 +54,25 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 <body>
 <script type="text/javascript" src="https://eon57.github.io/localsite/js/localsite.js?showheader=true"></script>
 
-<div style="background:#0b1315;">
-	<img src="https://eon.tech/projects/img/logos/eontech-ondark.jpg" style="height:115px" />
+<div style="background-color:#0b1315; height:120px">
+	<div style="float:left">
+		<a href="../"><img src="https://eon.tech/projects/img/logos/eontech-ondark.jpg" style="height:115px"></a>
+	</div>
+	<div id="topNav">
+		<a href="../portfolio">Portfolio</a>
+		<a href="../engineering">Engineering</a>
+		<a href="../contact">Contact</a>
+	</div>
 </div>
-<div style="background-color: #EEB211; height:40px">
+<div style="background-color: #EEB211; height:40px; clear:both">
 </div>
 
 <div class="content contentpadding">
 
 	<h1 style="font-size:40px; margin-bottom:20px">Ethan William Heyns</h1>
+	<!--
 	Georgia Tech, Aerospace Engineering<br>
+	-->
 
 	<div style="border-bottom:1px solid #333"></div><br>
 
