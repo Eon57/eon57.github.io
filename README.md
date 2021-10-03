@@ -1,1 +1,3 @@
-# eon57.github.io
+# Ethan Heyns
+
+[My Background](bio)

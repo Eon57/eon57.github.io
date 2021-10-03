@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Ethan Heyns</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+<link type="text/css" rel="stylesheet" href="https://eon57.github.io/localsite/css/base.css" />
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/showdown.min.js" id="/localsite/js/showdown.min.js"></script>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/navigation.js"></script>
+
+<script>
+if(typeof param=='undefined'){ var param={}; }
+param.titleArray = ["eon","tech"]
+param.startTitle = "Speakman Consulting"
+//param.headerLogoSmall = "<img src='img/logo/eontech.png' style='width:28px'>";
+param.footer = "footer.html"
+
+loadMarkdown("README.md", "readmeDiv", "_parent");
+</script>
+
+<style>
+#headerbar, #local-header, .showMenu, #showSide {
+	display: none !important;
+}
+</style>
+
+</head>
+
+<body>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/localsite.js?showheader=true"></script>
+
+<div style="background:#0b1315;">
+	<img src="https://eon.tech/projects/img/logos/eontech-ondark.jpg" style="height:115px" />
+</div>
+<div style="background-color: #EEB211; height:40px">
+</div>
+
+<div class="content contentpadding">
+
+    <div id="readmeDiv"></div>
+
+</div>
+</body>
+</html>
