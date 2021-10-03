@@ -1,6 +1,6 @@
 # Yellow Jacket Space Program (YJSP)
 
-## Space Systems Engineering
+## Flight Feed System
 
 ## Item
 
@@ -16,9 +16,6 @@
 
 ## Item
 
-<br>
-
-# Maynard Jackson High School
 
 
 
