@@ -5,11 +5,11 @@
 <title>Ethan Heyns</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-<link type="text/css" rel="stylesheet" href="../localsite/css/base.css" />
-<script type="text/javascript" src="../localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
-<script type="text/javascript" src="../localsite/js/jquery.min.js"></script>
-<script type="text/javascript" src="../localsite/js/showdown.min.js" id="/localsite/js/showdown.min.js"></script>
-<script type="text/javascript" src="../localsite/js/navigation.js"></script>
+<link type="text/css" rel="stylesheet" href="https://eon57.github.io/localsite/css/base.css" />
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/showdown.min.js" id="/localsite/js/showdown.min.js"></script>
+<script type="text/javascript" src="https://eon57.github.io/localsite/js/navigation.js"></script>
 
 <script>
 if(typeof param=='undefined'){ var param={}; }
@@ -19,14 +19,44 @@ param.startTitle = "Speakman Consulting"
 param.footer = "footer.html"
 
 loadMarkdown("README.md", "readmeDiv", "_parent");
+loadMarkdown("bio/README.md", "bioDiv", "_parent");
 </script>
 
 <style>
+h1 {
+	font-size: 22px;
+	font-weight: 1000;
+}
+h2 {
+	font-size: 18px;
+}
 #headerbar, #local-header, .showMenu, #showSide {
 	display: none !important;
 }
-#hero-landscape-image2 {
+#hero-image {
     background-image: url(img/hero/blue.jpg);
+}
+.hero-bucket {
+  background-color: rgba(33, 33, 33, 0.6);
+  border-radius: 40px;
+  margin-right: 60px;
+  max-width: 600px;
+  padding: 20px 50px 20px 50px;
+  float: right;
+  color: #bbb;
+  min-width: 380px;
+}
+@media (max-width: 800px) {
+	.hero-bucket {
+		float: left;
+	}
+}
+.hero-bucket h1 {
+	font-size: 38px;
+	font-weight: 800;
+	color:  #fff;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
 }
 body {
 	background: #fff;
@@ -47,15 +77,24 @@ body {
 
 
 <div id="hero_holder">
-  <!-- State image refreshed by localsite/js/map-filters.js -->
-  <div id="hero-landscape-image2" class="bgimg" style="z-index:-1; min-height: 550px; background-position: 0 0px; position: absolute; left:0; right:0; opacity: 1 !important; background-color:#888">
+  <div id="hero-image" class="bgimg" style="z-index:-1; min-height: 270px; background-position: 0 0px; position: absolute; left:0; right:0; opacity: 1 !important; background-color:#888">
   </div>
 
 </div>
 
-<div class="content contentpadding">
+<div class="content contentpadding" style="min-height: 270px;">
 
-    <div id="readmeDiv"></div>
+	<div class="hero-bucket">
+	    <div style="font-size:18px; margin-top:14px; margin-bottom:18px; font-weight:800">
+		    <div id="readmeDiv"></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="content contentpadding" style="clear:both">
+
+	<div id="bioDiv"></div>
 
 </div>
 

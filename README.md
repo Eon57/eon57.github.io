@@ -1,3 +1,4 @@
 # Ethan Heyns
 
-[My Background](bio)
+Aerospace Engineering
+eon@gatech.edu
