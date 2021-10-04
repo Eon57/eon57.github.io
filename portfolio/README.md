@@ -1,6 +1,6 @@
 # Yellow Jacket Space Program (YJSP)
 
-## Flight Feed System
+### Flight Feed System
 
 ## Item
 
