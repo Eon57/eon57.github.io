@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico" />
 <link type="text/css" rel="stylesheet" href="https://eon57.github.io/localsite/css/base.css" />
+<link type="text/css" rel="stylesheet" href="css/eon.css" />
 <script type="text/javascript" src="https://eon57.github.io/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
 <script type="text/javascript" src="https://eon57.github.io/localsite/js/jquery.min.js"></script>
 <script type="text/javascript" src="https://eon57.github.io/localsite/js/showdown.min.js" id="/localsite/js/showdown.min.js"></script>
@@ -32,6 +33,11 @@ h2 {
 #headerbar, #local-header, .showMenu, #showSide {
 	display: none !important;
 }
+.flexmain {
+    max-width: 2100px;
+    max-width: none; /* Adjust for ditortable images */
+}
+
 #hero-image {
     background-image: url(img/hero/blue.jpg);
 }
@@ -87,10 +93,6 @@ h2 {
 	padding-bottom: 0px;
 	margin-bottom: 10px;
 }
-.flexmain {
-    max-width: 2100px;
-    max-width: none; /* Adjust for ditortable images */
-}
 .hero-bucket-text {
   pointer-events: none;
   display: hidden;
@@ -106,14 +108,18 @@ body {
 <script type="text/javascript" src="localsite/js/localsite.js?showheader=true"></script>
 
 
-<div style="background:#0b1315;">
-	<img src="https://eon.tech/projects/img/logos/eontech-ondark.jpg" style="height:115px" />
+<div style="background-color:#0b1315; height:120px">
+	<div style="float:left">
+		<img src="https://eon.tech/projects/img/logos/eontech-ondark.jpg" style="height:115px">
+	</div>
+	<div id="topNav">
+		<a href="portfolio">Portfolio</a>
+		<a href="engineering">Engineering</a>
+		<a href="contact">Contact</a>
+	</div>
 </div>
-<div style="background-color: #EEB211; height:40px">
+<div style="background-color: #EEB211; height:40px; clear:both">
 </div>
-
-
-
 
 <div class="content contentpadding" style="clear:both">
 
@@ -122,8 +128,13 @@ body {
 	<div style="border-bottom:1px solid #333"></div><br>
 
 	<div id="bioDiv"></div>
-	<br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<br><br><br><br><br><br><br><br>
 	
+	<h3><a href="contact">Make Contact</a></h3>
+
+	
+
 </div>
 
 <div id="hero_holder">
