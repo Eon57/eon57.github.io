@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Ethan Heyns</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+<link rel="icon" type="image/x-icon" href="img/icons/favicon.ico" />
 <link type="text/css" rel="stylesheet" href="https://eon57.github.io/localsite/css/base.css" />
 <script type="text/javascript" src="https://eon57.github.io/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
 <script type="text/javascript" src="https://eon57.github.io/localsite/js/jquery.min.js"></script>
@@ -36,19 +36,49 @@ h2 {
 #hero-image {
     background-image: url(img/hero/blue.jpg);
 }
+#hero-image {
+    background-size: 100% 100%;
+}
 .hero-bucket {
-  background-color: rgba(33, 33, 33, 0.6);
-  border-radius: 40px;
-  margin-right: 60px;
+  background-color: rgba(33, 33, 33, 0.3);
+  border-radius: 30px;
+  margin-right: 0px;
   max-width: 600px;
   padding: 20px 50px 20px 50px;
   float: right;
   color: #bbb;
-  min-width: 380px;
+  background-image: url(img/hero/circuitry.jpg);
+  transition: 5s;
+  margin-right: 0px;
+
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+
 }
+.hero-bucket:hover {
+	box-shadow:
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 10px 6px #0ff, /* middle magenta */
+    0 0 28px 18px #0aa; /* outer cyan */
+    cursor: url(img/icons/favicon.ico), auto;
+}
+.hero-bucket-init {
+	background-image: url(img/hero/circuitry.jpg);
+	box-shadow:
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 10px 6px #0ff, /* middle magenta */
+    0 0 28px 18px #0aa; /* outer cyan */
+    cursor: url(img/icons/favicon.ico), auto;
+    margin-right: 800px;
+}
+
+
 @media (max-width: 800px) {
 	.hero-bucket {
 		float: left;
+		transition-duration: 2s;
 	}
 }
 .hero-bucket h1 {
@@ -60,7 +90,11 @@ h2 {
 }
 .flexmain {
     max-width: 2100px;
-    max-width: none; /* Adjust for ditortable images
+    max-width: none; /* Adjust for ditortable images */
+}
+.hero-bucket-text {
+  pointer-events: none;
+  display: hidden;
 }
 body {
 	background: #fff;
@@ -88,8 +122,8 @@ body {
 
 <div class="content contentpadding" style="min-height: 270px;">
 
-	<div class="hero-bucket">
-	    <div style="font-size:18px; margin-top:14px; margin-bottom:18px; font-weight:800">
+	<div class="hero-bucket hero-bucket-init">
+	    <div class="hero-bucket-text" style="font-size:18px; margin-top:14px; margin-bottom:18px; font-weight:800">
 		    <div id="readmeDiv"></div>
 		</div>
 	</div>
@@ -105,6 +139,28 @@ body {
 	<div id="bioDiv"></div>
 
 </div>
+
+<script>
+	$(document).ready(function() {
+		setTimeout( function() {
+			$(".hero-bucket").removeClass("hero-bucket-init");
+		}, 500 );
+	});
+	$(".hero-bucket").mouseover(function(){
+         //$(".hero-bucket").addClass("hero-bucket-init");
+         //
+    });
+    $(".hero-bucket").click(function(){
+    	if ($(".hero-bucket").hasClass("hero-bucket-init")) {
+    		$(".hero-bucket").removeClass("hero-bucket-init");
+    	} else {
+    		$(".hero-bucket").addClass("hero-bucket-init");
+    		setTimeout( function() {
+				$(".hero-bucket").removeClass("hero-bucket-init");
+		 	}, 8000 );
+    	}
+    });
+</script>
 
 </body>
 </html>
