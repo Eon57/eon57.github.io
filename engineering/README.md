@@ -2,11 +2,10 @@
 
 ## YJSP Flight Feed System Lead
 
-The X rocket..
+As the Flight System Lead, I've designed X, build Y, and tested Z as we prepare...
 
-As the flight lead, I've designed X, build Y, and tested Z as we prepare...
+The Yellow Jacket Space Program (YJSP) rocket launch date is set for...
 
-The launch date is set for 
 
 
 ## Hotfire Test at DeKalb-Peachtree Airport (PDK)
