@@ -9,7 +9,7 @@ As the flight lead, I've designed X, build Y, and tested Z as we prepare...
 The launch date is set for 
 
 
-## Hotfire Test at Peachtree DeKalb Airport
+## Hotfire Test at DeKalb-Peachtree Airport (PDK)
 
 
 Produced and edited a video of our hotfire test which received 36,500 views on Reddit.
