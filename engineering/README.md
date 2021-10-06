@@ -2,7 +2,7 @@
 
 ## YJSP Flight Feed System Lead
 
-As the Flight System Lead, I've designed X systems, built Y hardware, and tested Z as we prepare...
+As the Flight Feed System Lead, I've designed, built, and tested the inerds of our flight vehicle, Subscale. Our vehicle is called Subscale because it is a test bed for our planned fullscale vehicle with the objective of surpassing the Kármán line (100 km) to be the first collegiate team to reach space with a liquid fueled rocket.
 
 The Yellow Jacket Space Program (YJSP) rocket launch date is set for...
 
