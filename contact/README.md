@@ -1,6 +1,4 @@
-# Ethan William Heyns
-
-[Cognito Form to be embedded here]
+### [Contact form to be embedded here]
 
 
 
