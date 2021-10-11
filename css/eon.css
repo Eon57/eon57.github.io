@@ -16,3 +16,11 @@
 #topNav a:hover {
 	border-bottom: 3px solid #fff;
 }
+#topNav .active {
+	border-bottom: 3px solid #555;
+}
+@media (max-width: 1000px) {
+	.mobileWide {
+		width: 100% !important;
+	}
+}
