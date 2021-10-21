@@ -2,11 +2,11 @@
 
 **GT Faculty Honors 2020-2021**
 
-**Superintendent Scholar Athlete 
-Award,&nbsp;2020,** Highest GPA of an 
+**Superintendent Scholar Athlete**
+**Award,&nbsp;2020,** Highest GPA of an 
 athlete in Atlanta Public Schools
 
-**Senior Science Award, 2020**
+**Senior Science Award,&nbsp;2020**
 
 **Senior Voted Most Likely to Solve 
 a Global&nbsp;Problem, 2020**
