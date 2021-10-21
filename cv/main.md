@@ -5,7 +5,7 @@ Lead of the flight feed system propulsion team designing, building,
 testing, and launching a low-altitude rocket which is a test bed for our 
 fullscale space shot vehicle.
 
-Designed the flight feed system including the P&ID, component speccing, flow calculators, and COPV sizing calculator. Built everything from plumbing to component mounting. Test Responsible Engineer for water flows, high pressure tests, and cryogenic tests. Developed Test Readiness Reviews, procedures, and led test operations. Extensive integration between 
+Contributed extensively to designing the flight feed system including the P&ID, component specs, flow calculators, and COPV sizing calculator. Implemented everything from plumbing to component mounting. Test Responsible Engineer for water flows, high pressure tests, and cryogenic tests. Developed Test Readiness Reviews, procedures, and led test operations. Extensive integration between 
 systems including avionics, structures, and Ground Support Equipment.
 
 ### Georgia Tech Grand Challenges Living Learning Community, Fall 2020
