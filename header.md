@@ -1,5 +1,5 @@
 # Ethan Heyns
 
-## Georgia Tech, Aerospace Engineering
+Georgia Tech, Aerospace
 
 [https://eon.tech](eon.tech)
