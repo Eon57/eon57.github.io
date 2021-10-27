@@ -23,6 +23,9 @@
 	.mobileWide {
 		width: 100% !important;
 	}
+	.pdfFrame {
+		height: 500px !important;
+	}
 }
 
 @media (min-width: 1000px) {
