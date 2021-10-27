@@ -24,3 +24,10 @@
 		width: 100% !important;
 	}
 }
+
+@media (min-width: 1000px) {
+	.content {
+		font-size: 18px;
+		color: #333;
+	}
+}

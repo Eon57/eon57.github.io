@@ -25,4 +25,5 @@ Served as team co-captain in 2019 and 2020. Team made it to the state robotics c
 ### Georgia Institute of Technology, Class of 2024, Aerospace Engineering, 4.0 GPA
 
 ### Maynard Jackson High School, Class of 2020, International Baccalaureate Diploma
-Valedictorian, STAR Student (Highest SAT), Georgia Scholar, 4.54 GPA
+
+### Valedictorian, STAR Student (Highest SAT), Georgia Scholar, 4.54 GPA
