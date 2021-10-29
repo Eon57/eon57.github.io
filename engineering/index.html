@@ -65,9 +65,14 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 </div><br><br>
 
 <div class="content contentpadding" style="padding-bottom: 10px;">
-	I prepared the following Block Diagram and Test Readiness Review during our 2021 development:
+	<h2>Design</h2>
+	I created the following Plumbing and Instrumentation Diagram (P&ID) which is spacially accurate to the real plumbing. 
+	The diagram has proven very useful for assembly as it displays the names of every line and fitting.
 	<br><br>
 </div>
+
+	
+
 
 <div style="margin-left:30px; margin-right:40px">
 
@@ -77,16 +82,14 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	</div>
 	<a href="../docs/RealityP&ID-9.pdf">Fullscreen PDF</a>
 	<br><br><br>
+	
+<div class="content contentpadding" style="padding-bottom: 10px;">
+	I created a calculator to size our COPV's volume. The calculator uses the volume and pressures of every section (Pressurant, Fuel, LOX) and it calculates the COPV volume
+	needed to hold enough moles at 4500 PSI to reach our end of life pressure (EOL). The calculator accounts for GN2's compressibility factor at 4500 PSI. 
+	And it uses a conservative collapse factor of 2.5 for the LOX section. To do the calcuation I use an altered form of PV=nRT derived by Hermsen who alters Sutton's original equation.
 
-	<!--
-	<iframe
-	    src="../docs/RealityP&ID 9.pdf"
-	    frameBorder="0"
-	    height="600px"
-	    width="100%"
-	></iframe>	
 	<br><br>
-	-->
+</div>
 
 	<iframe class="pdfFrame"
 	    src="../docs/WaterFlowCampaignTRR.pdf"
