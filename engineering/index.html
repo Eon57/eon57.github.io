@@ -64,7 +64,7 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 <div style="text-align: center;">
 	<a href="../engineering"><img src="../img/subscale/render1.jpg" style="width:90%"> </a>
 </div>
-<div class="content contentpadding" style="padding-bottom: 10px;">
+<div style="text-align: center;">
 	Model of Intertank 1, the pressure regulation section of Subscale
 	<br><br>
 </div>
@@ -148,6 +148,19 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	I devised a number of tests we needed to complete in order to fulfill all of our objectives and aquire data for FFS. Those tests inculde Water Flows, COPV Fill, and Cryo Flows.
 	For these tests I created Test Readiness Reviews (TRRs) to outline my test objectives and procedures to safely gather useful data.
 	<br><br>
+
+	I also created a calculator which uses the discharge coefficient equation to solve for our target injector pressures based on desired mass flow rates. The calculator takes our engine and injector values and solves for the pressure differential across our injector. It also accounts for feed system pressure drop from tanks to injector to solve for tank pressures and it calculates the fill volume required for any flow duration.
+	<br>
+	<a href="../img/screenshots/MassFlowTestingCalc.png"><img src="../img/screenshots/MassFlowTestingCalc.png"></a>
+	<a href="../img/screenshots/MassFlowEq.png"><img src="../img/screenshots/MassFlowEq.png"></a>
+	<br><br>
+
+	Another useful calculator I created is used after testing to correlate our Water Flow and Cryo Flow data to our actual propellants. This calculator uses the Darcy-Weisbach equation to solve for pressure drop for Kerosene and LOX using the known pressure drops of water and liquid nitrogen. As seen in the spreadsheet, when converting our pressure drop data for both water and LN2 we get about 20 PSI for LOX in both cases.
+	<br>
+	<a href="../img/screenshots/DPConversionCalc.png"><img src="../img/screenshots/DPConversionCalc.png"></a>
+	<a href="../img/screenshots/DPEq.png"><img src="../img/screenshots/DPEq.png"></a>
+
+	<br><br><br>
 
 	<video width="53.33%" height="30%" controls>
       <source src="../img/vids/OMV1_27.mp4" type=video/mp4>
