@@ -3,8 +3,8 @@
 **GT Faculty Honors 2020-2021**
 
 **Superintendent Scholar Athlete**
-**Award,&nbsp;2020,** Highest GPA of an 
-athlete in Atlanta Public Schools
+**Award,&nbsp;2020, Highest GPA of an 
+athlete&nbsp;in&nbsp;Atlanta Public Schools**
 
 **Senior Science Award,&nbsp;2020**
 
@@ -15,9 +15,9 @@ a Global&nbsp;Problem, 2020**
 
 **National Honors Society, 2018 – 2020**
 
-**Future Problem Solving Club, 2016** 
+**Future Problem Solving Club, 2016<br>
 1st place for team action plan on 
-exoskeletons for workforce mentoring
+exoskeletons&nbsp;for workforce mentoring**
 
 
 ## Skills and Interests
