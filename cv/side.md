@@ -24,12 +24,10 @@ exoskeletons for workforce mentoring
 
 - 3D Modeling – Solidworks
 - Machining – Lathe, Mill, Waterjet
-- Fluids Testing – TRRs, 
-- High Pressure, Cryogenics
+- Fluids Testing – TRRs, High Pressure, Cryogenics
 - Plumbing – P&IDs
 - Team Project Managment
 - Video Editing – Adobe Premiere
 - Cinematography
 - Drone/Quadcopters – Building, FPV Racing, Photography
-- Engineering, Fluid Mechanics, 
-- Biology, Chemistry, Physics, Math
+- Engineering, Fluid Mechanics, Biology, Chemistry, Physics, Math
