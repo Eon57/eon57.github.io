@@ -79,10 +79,10 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	I created the following Plumbing and Instrumentation Diagram (P&ID) which is spacially accurate to the real plumbing. 
 	The diagram has proven very useful for assembly as it displays the names of every line and fitting.
 	<br><br>
+	FFS is divided up into four sections, Pressurant, Pneumatics, Fuel, and LOX. The Pressurant section includes the Composite Overwrapped Pressure Vessel (COPV) which holds GN2 at 4500 PSI. It also includes two primary dome loaded regulators which feed into the tanks and they are set by a series of hand loaded regulators. The Pneumatics section is down regulated from the pressurant section and it feeds into several solenoids which are used to actuate our pneumatically piloted valves. The Fuel and LOX sections hold the propellants, and the LOX section is rated for cryogenic temperatures.
+	<br><br>
 
-
-	
-
+</div>
 
 	
 	<div style="overflow:scroll; border:1px solid #ccc; background-color:#fff">
@@ -91,10 +91,15 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	<a href="../docs/RealityP&ID-9.pdf" style="margin-left:30px"><img src="../docs/RealityP&ID-9-crop.jpg"></a>
 	</div>
 	
-	<a href="../docs/RealityP&ID-9.pdf">Fullscreen PDF</a>
+	<a href="../docs/RealityP&ID-9.pdf" style="line-height: 32px; margin-left:30px">Fullscreen PDF</a>
 	
-	<br><br><br>
+	<br>
 	
+
+
+<div class="content contentpadding" style="padding-bottom: 10px;">
+
+	<h4>Volume Calculator</h4>
 
 	I created a calculator to size our COPV's volume. The calculator uses the volume and pressures of every section (Pressurant, Fuel, LOX) and it calculates the COPV volume
 	needed to hold enough moles at 4500 PSI to reach our end of life pressure (EOL). The calculator accounts for GN2's compressibility factor at 4500 PSI. 
