@@ -3,7 +3,7 @@
 ### Georgia Tech Yellow Jacket Space Program, Fall 2020-Present
 Lead of the flight feed system propulsion team designing, building, testing, and launching a low-altitude prototype for our fullscale space shot vehicle.
 
-Contributed extensively to designing the flight feed system including the Plumbing and Instrumentation Diagrams (P&ID), component specs, flow calculators, and Composite Overwrapped Pressure Vessel (COPV) sizing calculator. Implemented everything from plumbing to component mounting. Test Responsible Engineer for water flows, high pressure tests, and cryogenic tests. Developed Test Readiness Reviews, procedures, and led test operations. Extensive integration between systems including avionics, structures, and Ground Support Equipment.
+Contributed extensively to designing the flight feed system including the Plumbing and Instrumentation Diagrams (P&ID), component specs, flow calculators, and Composite Overwrapped Pressure Vessel (COPV) sizing calculator. Implemented everything from plumbing to component mounting. Test Responsible Engineer for water flows, high pressure tests, and cryogenic tests. Developed Test Readiness Reviews, procedures, and led test operations. Extensive integration between systems including avionics, structures, and Ground Support Equipment (GSE).
 
 ### Georgia Tech Grand Challenges Living Learning Community, Fall 2020
 Worked with a student team on creating an app that compiled all transportation modes into place and evaluating them based on their environmental friendliness.
