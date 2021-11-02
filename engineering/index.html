@@ -93,25 +93,31 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	
 	<a href="../docs/RealityP&ID-9.pdf" style="line-height: 32px; margin-left:30px">Fullscreen PDF</a>
 	
-	<br>
+	<br><br>
 	
 
 
 <div class="content contentpadding" style="padding-bottom: 10px;">
 
-	<h4>Volume Calculator</h4>
+	<div class="row mobileWide">
+	<div class="column mobileWide" style="padding-right: 40px; max-width:450px">
 
-	I created a calculator to size our COPV's volume. The calculator uses the volume and pressures of every section (Pressurant, Fuel, LOX) and it calculates the COPV volume
-	needed to hold enough moles at 4500 PSI to reach our end of life pressure (EOL). The calculator accounts for GN2's compressibility factor at 4500 PSI. 
-	And it uses a conservative collapse factor of 2.5 for the LOX section. To do the calcuation I use an altered form of PV=nRT derived by Hermsen who alters Sutton's original equation.
+		<h4>Volume Calculator</h4>
 
-	<br><br>
+		I created a calculator to size our COPV's volume. The calculator uses the volume and pressures of every section (Pressurant, Fuel, LOX) and it calculates the COPV volume
+		needed to hold enough moles at 4500 PSI to reach our end of life pressure (EOL). The calculator accounts for GN2's compressibility factor at 4500 PSI. 
+		And it uses a conservative collapse factor of 2.5 for the LOX section. To do the calcuation I use an altered form of PV=nRT derived by Hermsen who alters Sutton's original equation.
 
-	<a href="../img/screenshots/COPVCalc.png"><img src="../img/screenshots/COPVCalc.png"></a>
-	<br>
+		<br><br>
+	</div>
+	<div>
+		<a href="../img/screenshots/COPVCalc.png"><img src="../img/screenshots/COPVCalc.png"></a>
+		<br>
 
-	<div style="border:1px solid #ccc; display: inline-block; clear:both">
-		<a href="../img/screenshots/COPVCalcEq.png"><img src="../img/screenshots/COPVCalcEq.png" style="width:499px"></a>
+		<div style="border:1px solid #ccc; display: inline-block; clear:both">
+			<a href="../img/screenshots/COPVCalcEq.png"><img src="../img/screenshots/COPVCalcEq.png" style="width:499px"></a>
+		</div>
+	</div>
 	</div>
 
 </div>
@@ -155,6 +161,11 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	
 <div class="content contentpadding" style="padding-bottom: 10px; clear:both">
 	<h2>Testing</h2>
+
+
+	<div class="row mobileWide">
+	<div class="column mobileWide" style="padding-right: 40px; max-width:450px">
+
 	Before we can launch, we need to fully characterize FFS so that all the timings, pressures, and issues can be figured out before we utilize dangerous propellants.
 	I devised a number of tests we needed to complete in order to fulfill all of our objectives and aquire data for FFS. Those tests inculde Water Flows, COPV Fill, and Cryo Flows.
 	For these tests I created Test Readiness Reviews (TRRs) to outline my test objectives and procedures to safely gather useful data.
@@ -163,14 +174,17 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 	I also created a calculator which uses the discharge coefficient equation to solve for our target injector pressures based on desired mass flow rates. The calculator takes our engine and injector values and solves for the pressure differential across our injector. It also accounts for feed system pressure drop from tanks to injector to solve for tank pressures and it calculates the fill volume required for any flow duration.
 	<br><br>
 
-	<div style="max-width:400px">
-		<div style="border:1px solid #ccc; display: inline-block; clear:both">
-			<a href="../img/screenshots/MassFlowTestingCalc.png"><img src="../img/screenshots/MassFlowTestingCalc.png" style="width:499px"></a>
-		</div>
-		<a href="../img/screenshots/MassFlowEq.png"><img src="../img/screenshots/MassFlowEq.png"></a>
-		<br><br>
 	</div>
-
+	<div style="min-width:400px">
+		<div style="max-width:400px">
+			<div style="border:1px solid #ccc; display: inline-block; clear:both">
+				<a href="../img/screenshots/MassFlowTestingCalc.png"><img src="../img/screenshots/MassFlowTestingCalc.png" style="width:499px"></a>
+			</div>
+			<a href="../img/screenshots/MassFlowEq.png"><img src="../img/screenshots/MassFlowEq.png"></a>
+			<br><br>
+		</div>
+	</div>
+	</div>
 
 	Another useful calculator I created is used after testing to correlate our Water Flow and Cryo Flow data to our actual propellants. This calculator uses the Darcy-Weisbach equation to solve for pressure drop for Kerosene and LOX using the known pressure drops of water and liquid nitrogen. As seen in the spreadsheet, when converting our pressure drop data for both water and LN2 we get about 20 PSI for LOX in both cases.
 	<br><br>
@@ -196,8 +210,8 @@ loadMarkdown("README.md", "readmeDiv", "_parent");
 </div>
 <hr>
 
-<div style="margin-left:80px; margin-right:80px"><!-- margin allows user to scroll past Powerpoint -->
-	
+<div style="margin-left:80px; margin-right:80px" class="sideMarginMobile"><!-- margin allows user to scroll past Powerpoint -->
+	<br>
 	<h3>Test Readiness Reviews</h3>
 
 	<iframe class="pdfFrame"

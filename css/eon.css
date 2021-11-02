@@ -21,10 +21,15 @@
 }
 @media (max-width: 1000px) {
 	.mobileWide {
+		display: block;
 		width: 100% !important;
+		max-width: 100% !important;
 	}
 	.pdfFrame {
 		height: 500px !important;
+	}
+	.sideMarginMobile {
+		margin: 20px !important;
 	}
 }
 
