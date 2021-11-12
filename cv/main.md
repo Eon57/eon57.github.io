@@ -8,7 +8,7 @@ Contributed extensively to developing the flight feed system including the Plumb
 ### Georgia Tech Grand Challenges Living Learning Community, Fall 2020
 Worked with a student team on creating an app that compiled all transportation modes into place and evaluating them based on their environmental friendliness.
 
-### Georgia Tech Research Institute, High School Intern, Summer 2018
+### Georgia Tech Research Institute Internship, Summer 2018
 Developed prototype for motion-activated LED bike safety vest. Recognized as the first team to have a working prototype in the seven-year history of the program.
 
 ### German Exchange Program, Fall 2018 and Summer 2019
