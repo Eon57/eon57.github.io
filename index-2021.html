@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Ethan Heyns - Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="img/icons/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="/localsite/css/base.css" id="/localsite/css/base.css" />
+<link type="text/css" rel="stylesheet" href="css/design.css" />
+<link type="text/css" rel="stylesheet" href="css/eon.css" />
+<script type="text/javascript" src="https://eon.tech/localsite/js/d3.v5.min.js" id="/localsite/js/d3.v5.min.js"></script>
+<script type="text/javascript" src="https://eon.tech/localsite/js/jquery.min.js" id="/localsite/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://eon.tech/localsite/js/showdown.min.js" id="/localsite/js/showdown.min.js"></script>
+<script type="text/javascript" src="https://eon.tech/localsite/js/navigation.js" id="/localsite/js/navigation.js"></script>
+
+<script>
+if(typeof param=='undefined'){ var param={}; }
+param.titleArray = ["eon","tech"]
+//param.footer = "footer.html"
+param.showfooter = false;
+
+loadMarkdown("TOP.md", "readmeDiv", "_parent");
+loadMarkdown("cv/main.md", "mainDiv", "_parent");
+loadMarkdown("cv/side.md", "sideDiv", "_parent");
+</script>
+
+<style>
+h1 {
+	font-size: 28px;
+	font-weight: 400;
+}
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 18px;
+}
+#sideDiv {
+	font-size: 16px;
+}
+#headerbar, #local-header, .showMenu, #showSide {
+	display: none !important;
+}
+
+#hero-image {
+    background-image: url(img/hero/blue.jpg);
+}
+#hero-image2 {
+		/*
+    background-image: url(img/hero/flow-system-2021.jpg);
+    */
+    background-image: url(img/pics/subscale-night-sm.jpg);
+}
+#hero-image {
+    background-size: 100% 100%;
+}
+.hero-bucket {
+  background-color: rgba(33, 33, 33, 0.3);
+  border-radius: 30px;
+  margin-right: 0px;
+  max-width: 600px;
+  padding: 20px 50px 20px 50px;
+  float: right;
+  color: #bbb;
+  background-image: url(img/hero/circuitry.jpg);
+  transition: 5s;
+  margin-right: 0px;
+
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+
+}
+.hero-bucket:hover {
+	box-shadow:
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 10px 6px #0ff, /* middle magenta */
+    0 0 28px 18px #0aa; /* outer cyan */
+    cursor: url(img/icons/favicon.ico), auto;
+}
+.hero-bucket-init {
+	background-image: url(img/hero/circuitry.jpg);
+	box-shadow:
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 10px 6px #0ff, /* middle magenta */
+    0 0 28px 18px #0aa; /* outer cyan */
+    cursor: url(img/icons/favicon.ico), auto;
+    margin-right: 2400px;
+}
+
+
+@media (max-width: 800px) {
+	.hero-bucket {
+		float: left;
+		transition-duration: 2s;
+	}
+}
+.hero-bucket h1 {
+	font-size: 38px;
+	font-weight: 800;
+	color:  #fff;
+	padding-bottom: 0px;
+	margin-bottom: 10px;
+}
+.hero-bucket-text {
+  pointer-events: none;
+  display: hidden;
+}
+body {
+	background: #fff;
+}
+#readmeDiv {
+	overflow: hidden !important; /* Prevents scroll bar */
+}
+
+.field-margins {
+	border: 4px solid #fff;
+}
+</style>
+
+</head>
+
+<body>
+<script type="text/javascript" src="https://eon.tech/localsite/js/localsite.js"></script>
+
+
+<div style="background-color:#0b1315; min-height:120px; overflow:auto">
+	<div style="float:left">
+		<img src="img/logos/eontech-ondark.jpg" style="height:115px">
+	</div>
+	<div id="topNav">
+		<a href="./#resume">Resume</a>
+		<a href="portfolio">Portfolio</a>
+		<a href="engineering">Engineering</a>
+		<a href="contact">Contact</a>
+	</div>
+</div>
+
+<div style="background-color: #EEB211; height:4px; clear:both">
+</div>
+
+<div id="hero_holder">
+  <div id="hero-image" class="bgimg" style="z-index:-1; min-height: 720px; background-position: 0 -70px; position: absolute; left:0; right:0; opacity: 1 !important; background-color:#888">
+  </div>
+</div>
+
+<div class="content contentpadding" style="min-height: 320px;">
+	<div class="hero-bucket hero-bucket-init">
+	    <div class="hero-bucket-text" style="font-size:18px; margin-top:14px; margin-bottom:18px; font-weight:800">
+		    <div id="readmeDiv"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="content" style="background-colorX: #fff; width:100%; padding-top:30px; padding-bottom:30px">
+	
+	<div class="field-content">
+		<div class="field-margins">
+			<div class="field-relative">
+	    		<a href="#resume"><img class="field-image" src="img/bio/ethan-heyns-2021-10-crop.jpg" style="max-width:400px" /><div class="field-title">Resume</div></a>
+	    	</div>
+	    </div>
+	</div>
+
+
+	<div class="field-content">
+		<div class="field-margins">
+			<div class="field-relative">
+	    		<a href="portfolio"><img class="field-image" src="img/subscale/render1-crop.jpg" style="max-width:400px" /><div class="field-title">Portfolio</div></a>
+	    		
+	    	</div>
+		</div>
+	</div>
+
+	<div class="field-content">
+		<div class="field-margins">
+			<div class="field-relative">
+	    		<a href="engineering"><img class="field-image" src="img/pics/IT1Assembled-full.jpg" style="max-width:400px" /><div class="field-title">Engineering</div></a>
+	    	</div>
+	    </div>
+	</div>
+	
+	
+
+</div>
+
+<div style="clear:both"></div>
+
+
+<br><br><br><br><br><br><br><br>
+
+<div id="resume" class="content contentpadding" style="clear:both; padding-bottom:0px; background-color:#fff">
+	
+
+	<h1 style="font-size:40px; margin-bottom:20px">Ethan Heyns</h1>
+
+	<div style="border-bottom:1px solid #333"></div>
+
+	<br>
+	<!--
+	<h3 style="font-size:24px; font-weight: 200; margin-bottom:30px">Georgia Institute of Technology</h3>
+
+	
+	<h3 style="font-size:24px; font-weight: 200; margin-bottom:30px">Yellow Jacket Space Program (YJSP)</h3>
+	-->
+
+<h2>Education</h2>
+<h3>Georgia Institute of Technology, Class of 2024, Aerospace Engineering, 4.0 GPA</h3>
+
+<h3>Maynard Jackson High School, Class of 2020, International Baccalaureate Diploma</h3>
+
+Valedictorian, STAR Student (Highest SAT), Georgia Scholar, 4.54 GPA
+<br><br>
+
+	<div class="row mobileWide">
+	  <div class="column"><div id="mainDiv"></div>
+	  	<a href="resume/Ethan-Heyns-Resume.pdf">Download as PDF</a>
+		</div>
+	  <div class="column flexright"><div id="sideDiv"></div></div>
+	</div>
+
+</div>
+
+
+<div class="content contentpadding" style="clear:both">
+	<h3>
+		Ethan Heyns:&nbsp; <a href="portfolio">Portfolio</a> | 
+		<a href="engineering">Engineering</a> | 
+		<a href="contact">Contact</a>
+	</h3>
+</div>
+
+<div id="hero_holder" style="position:relative; min-height: 600px; ">
+  
+  <a style="z-index: 1001; position: absolute; display: block; left: 0; right:0; bottom:0; top:0" href="portfolio"></a>
+
+  <div id="hero-image2" class="bgimg" style="z-index:-1; min-height: 2000px; background-position: 0 -70px; position: absolute; left:0; right:0; opacity: 1 !important;">
+  	<div style="z-index: 1000; width:100%; min-height: 2000px;">		
+  	</div>
+  </div>
+  
+  <div style="z-index: 1001; position: absolute; top:100px">
+  	<div style="text-align: center;">
+
+
+
+  		
+
+  	</div>
+  </div>
+
+</div>
+
+
+<script>
+	$(document).ready(function() {
+		setTimeout( function() {
+			$(".hero-bucket").removeClass("hero-bucket-init");
+		}, 200 );
+	});
+	$(".hero-bucket").mouseover(function(){
+         //$(".hero-bucket").addClass("hero-bucket-init");
+         //
+    });
+    $(".hero-bucket").click(function(){
+    	if ($(".hero-bucket").hasClass("hero-bucket-init")) {
+    		$(".hero-bucket").removeClass("hero-bucket-init");
+    	} else {
+    		$(".hero-bucket").addClass("hero-bucket-init");
+    		setTimeout( function() {
+				$(".hero-bucket").removeClass("hero-bucket-init");
+		 	}, 1800 );
+    	}
+    });
+</script>
+
+
+<div style="background-color: #fff; float:left; width:100%; padding-top:30px; padding-bottom:30px">
+	
+	<div class="field-content">
+		<div class="field-margins">
+			<div class="field-relative">
+	    		<a href="portfolio"><img class="field-image" src="img/subscale/render1-crop.jpg" style="max-width:400px" /><div class="field-title">Portfolio</div></a>
+	    		
+	    	</div>
+		</div>
+	</div>
+
+	<div class="field-content">
+		<div class="field-margins">
+			<div class="field-relative">
+	    		<a href="engineering"><img class="field-image" src="img/pics/IT1Assembled-full.jpg" style="max-width:400px" /><div class="field-title">Engineering</div></a>
+	    	</div>
+	    </div>
+	</div>
+	
+	<div class="field-content">
+		<div class="field-margins">
+			<div class="field-relative">
+	    		<a href="contact"><img class="field-image" src="img/pics/sunset-selfie-sm.jpg" style="max-width:400px" /><div class="field-title">Contact</div></a>
+	    	</div>
+	    </div>
+	</div>
+
+</div>
+
+
+</body>
+</html>
+
+
